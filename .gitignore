@@ -1,0 +1,11 @@
+node_modules/
+dist/
+
+# Keep the project-specific README locally, but do not publish descriptive docs.
+*.md
+!ТЗ.md
+*.doc
+*.docx
+*.pdf
+*.rtf
+*.odt
