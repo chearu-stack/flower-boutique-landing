@@ -9,3 +9,7 @@ dist/
 *.pdf
 *.rtf
 *.odt
+
+# Original user-provided files stay local; publish only selected derivatives.
+assets/source-inbox/*
+!assets/source-inbox/.gitkeep

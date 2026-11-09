@@ -8,6 +8,7 @@ import sundayCopy from '../content/week-01/07-sunday-natural-photo/post.txt?raw'
 import sundayImage from '../content/week-01/07-sunday-natural-photo/image.jpg';
 import mobileCover from '../assets/community/vk-cover-mobile.jpg';
 import desktopCover from '../assets/community/vk-cover-desktop.jpg';
+import marinaPortrait from '../assets/editorial/marina-portrait.jpg';
 import './styles.css';
 
 const posts = [
@@ -134,6 +135,7 @@ function installResponsiveCovers() {
   });
 }
 
+document.querySelector('#marina-photo').src = marinaPortrait;
 installResponsiveCovers();
 renderCollection();
 renderFilters();
